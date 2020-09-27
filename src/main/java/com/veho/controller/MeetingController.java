@@ -21,6 +21,5 @@ public class MeetingController {
         },json());
         after((request, response) -> {response.type("application/json");});
 
-
     }
 }

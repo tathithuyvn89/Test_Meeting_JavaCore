@@ -17,7 +17,7 @@ public class MeetingServiceImpl implements MeetingService {
 
     @Override
     public Meeting findById(String id) {
-        return null;
+        return meetingRepository.findMeetingById(id);
     }
 
     @Override

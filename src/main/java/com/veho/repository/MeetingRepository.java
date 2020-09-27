@@ -19,6 +19,9 @@ public class MeetingRepository {
     public List<Meeting>allMeeting() {
         return new ArrayList<>(meetings.values());
     }
+    public Meeting findMeetingById(String id) {
+        return meetings.get(id);
+    }
 
 
 }
